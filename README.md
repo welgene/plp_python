@@ -4,13 +4,14 @@ A basic command-line calculator written in Python. This script prompts the user 
 
 ## Description
 
-This project is a straightforward implementation of a calculator that performs basic arithmetic operations:
+This project is a straightforward implementation of a calculator that performs basic arithmetic operations. It uses Python's `match` statement (available in Python 3.10 and newer) to handle the different operations and includes error handling for invalid inputs.
+
+## Features
 - Addition (`+`)
 - Subtraction (`-`)
 - Multiplication (`*`)
 - Division (`/`)
-
-It uses Python's `match` statement (available in Python 3.10 and newer) to handle the different operations.
+- Graceful error handling for non-numeric inputs and division by zero.
 
 ## Requirements
 
